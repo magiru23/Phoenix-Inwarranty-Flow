@@ -2,12 +2,12 @@
        
 
        
-       0n :
+       on :
          push:
             branches:[main]
 
        workflow_dispatch :
-       Schedule :
+       schedule :
          -cron : 30 02  * * *  # 8:AM IST Everyday
          -cron : 00 14  * * *  # 2:30 AM IST Everyday
          -cron : 00 06  * * 1-5 # 11:30 am IST Monday-Friday
