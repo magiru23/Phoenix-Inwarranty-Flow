@@ -7,7 +7,6 @@ on:
       - main
 
   workflow_dispatch:
-
   schedule:
     - cron: '30 02 * * *' # 8:00 AM IST Everyday
     - cron: '00 14 * * *' # 7:30 PM IST Everyday
